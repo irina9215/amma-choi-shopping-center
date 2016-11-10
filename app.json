@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "page/emmachoi/index"
+  ],
+  "window": {
+    "backgroundColor": "#f0f0f0",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Emma Choi",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#fff",
+    "backgroundColor": "rgba(0,0,0,0.5)",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "page/emmachoi/index",
+        "iconPath": "image/shouye.png",
+        "selectedIconPath": "image/shouye.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "page/emmachoi/find/find",
+        "iconPath": "image/car_footer.png",
+        "selectedIconPath": "image/car_footer.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "page/emmachoi/list/list",
+        "iconPath": "image/list_footer.png",
+        "selectedIconPath": "image/list_footer.png",
+        "text": "类目"
+      },
+      {
+        "pagePath": "page/emmachoi/my/my",
+        "iconPath": "image/my_footer.png",
+        "selectedIconPath": "image/my_footer.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

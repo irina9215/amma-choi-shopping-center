@@ -1,0 +1,63 @@
+<view class="wrap">
+        <view class="header">
+            <view class="logo" >
+                <image src="{{logoImg}}" mode="aspectFit" class="logoImg"/> 
+            </view>
+            <view class="searchBox">
+                <input type="text" />
+                <view class="iconbox"><icon type="search" size="20" /></view>
+            </view>
+            <navigator url="hangou/shopcar/shopcar" class="shopcar"> 
+                <image src="{{shopcarImg}}" mode="aspectFit" class="shopcarImg"/> 
+            </navigator>
+        </view>
+        <view class="contanir">
+            <swiper autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+                <block wx:for-items="{{bannerImg}}">
+                    <swiper-item>
+                        <image src="{{item}}" class="slide-image"/>
+                    </swiper-item>
+                </block>
+            </swiper>
+            <view class="classify">
+                <block wx:for-items="{{classifyImg}}">
+                    <view class="className">
+                        <image src="{{item.img}}" class="classifyImg"/>
+                        <text class="classifyText">{{item.text}}</text>
+                    </view>
+                </block>
+            </view>
+            <view class="classify_bottom">
+                <image src="{{classify_bottom_img}}" class="classify_bottom"/>
+            </view>
+        <view class="techanView">
+                <view class="title_1">必败单品</view>
+            <view class="techan">
+                    <image src="{{techanImg}}" class="techanImg"/>
+            </view>
+            </view>
+            <view class="goodsBoxList">
+                <block wx:for="{{goodsList}}" wx:for-item="list">
+                    <view class="goodsBox">
+                        <view class="goodsTitle">
+                            <view class="title">{{list.title}}</view>
+                            <view class="subTitle">--小编向您推荐以下商品--</view>
+                        </view>
+                        <view class="goodsSection">
+                            <block wx:for="{{list.goods}}" wx:for-item="goods">
+                                <view class="goods">
+                                    <view class="goodsInfo">
+                                        <image src="{{goods.img}}" class="goodsImg"/>
+                                    <text class="goodsSum">{{goods.goodsSum}}</text>
+                                    </view>
+                                    <view class="goodsPrice">{{goods.goodsPrice}}</view>
+                                </view>
+                            </block>
+                        </view>
+                    </view>
+                </block>
+            </view>
+        </view>
+      <include src="../template/footer.wxml"/>
+        <image src="/image/top.png" class="topImg" bindtap="toTop"/>
+</view>

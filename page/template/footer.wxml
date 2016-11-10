@@ -1,0 +1,25 @@
+<view class="footer">
+    <view class="shortcut">
+        <view class="shortCut_btn">登录</view>
+        <view class="shortCut_btn">注册</view>
+        <view class="shortCut_btn">反馈</view>
+        <view class="shortCut_btn">返回顶部</view>
+    </view>
+    <view class="swicthModel">
+        <view class="model">
+            <image src="/image/app.png" class="modelImg"/>
+            <text>客户端</text>
+        </view>
+           <view class="model active">
+            <image src="/image/cp.png" class="modelImg "/>
+            <text>触屏版</text>
+        </view>
+         <view class="model">
+            <image src="/image/pc.png" class="modelImg"/>
+            <text>电脑版</text>
+        </view>
+    </view>
+    <view class="beian">
+        Copyright &copy; 2014-2016  汉购网 hangouwa.com版权所有
+    </view>
+</view>

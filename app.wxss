@@ -1,0 +1,99 @@
+/**app.wxss**/
+.wrap{
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+   box-sizing: border-box;
+   font-family: "微软雅黑";
+}
+.header{
+  width:100%;
+  height:150rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contanir{
+  width:100%;
+  height: 100%;
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+  width:100%;
+  height: 400rpx;
+  border-top:#ddd solid 40rpx;
+  background:#fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shortcut{
+  flex:2;
+  width: 100%;
+  height: 100%;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2rpx solid #ddd;
+}
+.shortCut_btn{
+  flex:1;
+  width: 100%;
+  height: 50%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right:solid #ddd 2rpx; 
+  margin:25% 0;
+}
+.swicthModel{
+  flex: 3;
+  width: 100%;
+  height: 100%;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2rpx solid #ddd;
+}
+.model{
+    width:20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#ccc;
+}
+.modelImg{
+  margin-top:20%;
+  display: block;
+  width:100rpx;
+  height:100rpx;
+}
+.model text{
+  flex:1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model.active{
+  color:#000;
+}
+.beian{
+  flex:1;
+  width: 100%;
+  height: 100%;
+  font-size:24rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

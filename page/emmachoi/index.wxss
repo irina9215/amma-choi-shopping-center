@@ -1,0 +1,257 @@
+scroll-view{
+    width: 100%;
+    /*height: 1000rpx;*/
+}
+/*header*/
+.header{
+    background: #E7E7E9;
+    /*position:fixed;*/
+    left:0;
+    top:0;
+    z-index: 10000000;
+}
+.logo{
+    flex:1;
+    width: 100%;
+    height: 100%;
+    padding:30rpx 10rpx;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logoImg{
+    flex:1;
+    width: 100%;
+    height: 100%;
+}
+.searchBox{
+    flex:3;
+    width: 100%;
+    height: 50%;
+    border:solid 1px #bbb;
+    box-sizing: border-box;
+    border-radius:30rpx;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: block;
+    flex:4;
+    width:100%;
+    height: 100%;
+    padding-left:10rpx;
+}
+.iconbox{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopcar{
+    flex:1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding:30rpx 10rpx;
+    justify-content: center;
+    align-items: center;
+}
+.shopcarImg{
+    flex:1;
+    width:50%;
+    height: 50%;
+}
+/* banner*/
+.contanir{
+    /*margin-top:150rpx; */
+}
+swiper{
+    width:100%;
+    height: 450rpx;
+}
+swiper-item{
+    display: block;
+    width:100%;
+    height: 100%;
+}
+.slide-image{
+    width:100%;
+    height: 100%;
+}
+/*classify*/
+.classify{
+    width:100%;
+    height: 200rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#fff;
+    margin-bottom: 20rpx;
+}
+.className{
+    flex:1;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.classifyImg{
+    flex:2;
+    width:60%;
+    height: 80%;
+    margin: 20rpx 0;
+}
+.classifyText{
+    flex:1;
+    font-size: 14px;
+}
+/*classify_bottom*/
+.classify_bottom{
+    width:100%;
+    height: 300rpx;
+    display: flex;
+    margin-bottom: 20rpx;
+}
+.classify_bottom_img{
+    flex:1;
+    width:100%;
+    height: 100%;
+}
+/*techan*/
+.techanView{
+    width:100%;
+    height: 300rpx;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20rpx;
+}
+.title_1{
+    flex:1;
+    width:98%;
+    height: 50rpx;
+    border-left: solid #ff4455 6rpx;
+    padding-left: 20rpx;
+    box-sizing: border-box;
+    margin:10rpx 1%;
+    font-size:28rpx;
+}
+.techan{
+    flex:7;
+    width:100%;
+    height: 250rpx;
+    display: flex;
+}
+.techanImg{
+    flex:1;
+    width:100%;
+    height: 100%;
+}
+
+/*goodsBoxList*/
+.goodsBoxList{
+    width:100%;
+    padding-left:20rpx; 
+    box-sizing: border-box;
+    background: #fff;
+}
+.goodsBox{
+    width:100%;
+   
+}
+.goodsTitle{
+    width:100%;
+    height:100rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    flex: 2;
+    width: 100%;
+    height: 100%;
+    font-size: 40rpx;
+    text-align: center;
+}
+.subTitle{
+    flex:1;
+    width: 100%;
+    height: 100%;
+    font-size: 24rpx;
+    color:#bbb;
+    text-align: center;
+}
+.goodsSection{
+    width:100%;
+    padding:20rpx 0rpx;
+    box-sizing: border-box;
+}
+.goods{
+    width:50%;
+    height: 600rpx;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    float: left;
+    padding-right:20rpx; 
+    box-sizing: border-box;
+}
+.goodsInfo{
+    flex:3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:#f8f8f8 solid 2rpx;
+    padding-bottom:20rpx; 
+}
+.goodsImg{
+    flex:3;
+    width: 100%;
+    height: 100%;
+}
+
+.goodsSum{
+    width:100%;
+     overflow: hidden;
+    font-size: 30rpx;
+    line-height: 40rpx;
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    -webkit-box-orient: vertical; 
+    -webkit-line-clamp: 2; 
+   
+}
+.goodsPrice{
+    flex:1;
+    width: 100%;
+    height: 100%;
+    color:red;
+    padding:10rpx 0;
+}
+/*toTop*/
+.topImg{
+    display: block;
+    position: fixed;
+    right:30rpx;
+    bottom:40rpx;
+    width:100rpx;
+    height: 100rpx;
+    z-index: 1000000; 
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9);
+}
+
